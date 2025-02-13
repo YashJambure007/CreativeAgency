@@ -1,0 +1,1957 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: "poppins",sans-serif;
+    list-style: none; 
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.creative{
+    border-radius: none;
+    background:rgba(0,0,0,0.7)url("./2CreativeAgencyAssign-2/Img/carousel-1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 27rem;
+}
+nav ul li{
+    cursor: pointer;
+}
+.creativetitle{
+    padding-top: 2rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;  
+    font-weight: bold;
+   
+}
+.creativetitle::first-letter{
+    color: orangered;
+}
+.creativetitle span{
+    color: orangered;  
+}
+.creativelist{
+    font-size: 0.7rem;
+    color: white;
+    display: inline-block;
+    margin: 1px;
+    padding-left: 1px;
+    font-weight: 100;
+}
+.creativelist1{
+    font-size: 0.7rem;
+    color: orangered;
+    display: inline-block;
+    margin: 1px;
+    font-weight: 100;
+}
+.contentbox{
+    display: flex;
+    flex-direction: column;  
+    width: 320px;  
+    position: relative; 
+}
+.leftbox{
+    position: absolute;
+    width: 10%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.leftbox .a1{
+    display: flex;
+    color:  orangered;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 3px 9px;
+    margin-left: 5px;
+    margin-bottom: 1rem;
+    background-color: orangered;
+}
+.leftbox a{
+
+    display: flex;
+    color: rgb(5, 0, 0);
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 100%;
+    background-color: white;
+    padding-left: 4px;
+    margin-left: 5px;
+    margin-bottom: 1rem;
+}
+.rightbox {
+    width: 70%;
+    color: white;
+    /* padding-left: 3rem;   */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.rightpara{
+    margin-bottom: 1rem;
+}
+.rightbtn{
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: orangered;
+    margin-top: 2rem;
+}
+
+/* creative end */
+
+
+
+.serviceprovider{
+    width: 100%;
+    margin: 0 1rem;    
+}
+.leftbox1 img{
+    border: 1px solid rgb(214, 210, 210);
+    padding: 0.6rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 17rem;
+
+}
+.rightbox{
+    font-weight: bold;
+}
+.rightbox1 .anchor1{
+    background-color:orangered;
+    color: white;
+    padding: 2px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-bottom: -1rem;
+}
+.rightbox1 .heading1{
+    
+    margin-left: 0.5rem;
+}
+.rightbox1 h1{
+    margin-top: 1rem;
+    width: 17.5rem;
+}
+.rightbox1 .para1-1{
+    width: 16rem;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+.rightbox1 button{
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: orangered;
+    margin-left: 0.5rem;
+}
+/* serviceprovider ends*/
+
+
+
+.serviceprovidercontact{
+    width: 92%;
+    height: 7rem;
+    margin: 2rem 1rem; 
+}
+.contactlocation{
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+}
+.leftbox2 .fa-location-dot{
+    margin: 1.5rem 1rem;
+    font-size: 1.5rem;
+    color: orangered;
+}
+.rightbox2 h4{
+    margin-top: 1rem ;
+    font-weight: bold;
+}
+.rightbox2 p{
+    color: rgb(131, 116, 116);
+}
+.contactemail{
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.leftbox2 .fa-envelope{
+    margin: 1.5rem 1rem;
+    font-size: 1.5rem;
+    color: orangered;
+}
+.contactcall{
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.leftbox2 .fa-phone{
+    margin: 1.5rem 1rem;
+    font-size: 1.5rem;
+    color: orangered;
+}
+/* serviceprovidercontact ends */
+
+
+
+.serviceoffer1{
+    width: 263px;
+    margin-top: 12rem; 
+    margin-left: 1rem;
+}
+.descrip1 .a1{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.2rem;
+    background-color: orangered;
+    color: white;
+}
+.descrip1 h2{
+    width: 270px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.descrip1 p{
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.descrip1 .a2{
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    background-color: orangered;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1rem;
+}
+.service1{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.leftbox3 .fa-laptop-code{
+    font-size: 3rem;
+    color: orangered;
+    margin-right: 1rem;
+}
+.rightbox3{
+    font-weight: 500;
+}
+.rightbox3 h3{
+    margin-bottom: 0.8rem;
+}
+.rightbox3 p{
+    margin-bottom: 1rem;
+    color: rgb(131, 116, 116)
+}
+.rightbox3 a .fa-angles-right{
+    color: orangered;
+    font-size: 0.8rem;
+}
+.rightbox3 a{
+    color: orangered;
+}
+
+
+.service2{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.leftbox4 .fa-arrow-up-wide-short{
+    font-size: 3rem;
+    color:orangered;
+    margin-right: 1rem;
+}
+.rightbox4 {
+    font-weight: 500;
+}
+.rightbox4 h3{
+    margin-bottom: 0.8rem;
+}
+.rightbox4 p{
+    margin-bottom: 1rem;
+    color: rgb(131, 116, 116)
+}
+.rightbox4 a .fa-angles-right{
+    color: orangered;
+    font-size: 0.8rem;
+}
+.rightbox4 a{
+    
+    color: orangered;
+    font-size: 1rem;
+}
+.serviceoffer2{
+    width: 263px;
+    margin-left: 1rem;
+}
+
+.service3{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.leftbox5 .fa-envelope-open-text{
+    font-size: 3rem;
+    color:orangered;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.rightbox5{
+    font-weight: 500;
+}
+.rightbox5 h3{
+    margin-bottom: 0.8rem;  
+}
+.rightbox5 p{
+    margin-bottom: 1rem;
+    color: rgb(131, 116, 116)
+}
+.rightbox5 a .fa-angles-right{
+    color: orangered;
+    font-size: 0.8rem;
+}
+.rightbox5 a{
+    color: orangered;
+    font-size: 1rem;
+}
+
+.service4{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.leftbox6 .fa-arrow-trend-up{
+    font-size: 3rem;
+    color:orangered;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.rightbox6 {
+    font-weight: 500;
+}
+.rightbox6 h3{
+    margin-bottom: 0.8rem;
+}
+.rightbox6 p{
+    margin-bottom: 1rem;
+    color: rgb(131, 116, 116);
+}
+.rightbox6 a .fa-angles-right{
+    color: orangered;
+    font-size: 0.8rem;
+}
+.rightbox6 a{
+    color:orangered;
+    font-size: 1rem;
+}
+/* serviceprovider end */
+
+
+.experience{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 100%;
+}
+.leftbox7 .anchora{
+    border-radius: 3px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.1rem 0.3rem;
+    background-color: orangered;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.leftbox7 h1{
+    margin-top: 0.5rem;
+}
+.leftbox7 p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:  rgb(131, 116, 116);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.leftbox7 ul .fa-caret-right{
+    list-style: inside;
+    color: orangered;
+    margin-bottom: 0.5rem;
+}
+.leftbox7 ul{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.leftbox7 .anchorb{
+    color: rgb(22, 21, 21);
+    background-color: orangered;
+    font-weight: bold;
+    padding: 0.4rem 1rem;
+}
+.rightboxab{
+    display: flex;
+    flex-direction: row;
+}
+.rightboxab .rightboxa{
+    font-weight: bold;
+    width: 9rem;
+    height: 6rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(214, 210, 210);
+    color: orangered;
+}
+.rightboxa h1{
+    padding: 0 2.5rem;
+    font-size: 3rem;
+}
+.rightboxa p{
+    padding-top: 4px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: black;
+}
+.rightboxab .rightboxb{
+    font-weight: bold;
+    width: 9rem;
+    height: 6rem;
+    margin-top: 2rem;
+    border: 1px solid  rgb(214, 210, 210);
+    color: orangered;
+}
+.rightboxb{
+    margin-left: 1rem;
+}
+.rightboxb h1{
+    padding: 0 1.9rem;
+    font-size: 3rem;
+}
+.rightboxb p{
+    padding-top: 4px;
+    padding-left: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.rightboxcd{
+    display: flex;
+    flex-direction: row;
+}
+.rightboxcd .rightboxc{
+    font-weight: bold;
+    width: 9rem;
+    height: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(214, 210, 210);
+    color: orangered;
+}
+.rightboxc h1{
+    padding: 0 1rem;
+    font-size: 3rem;
+}
+.rightboxc p{
+    padding-top: 4px;
+    padding-left: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+.rightboxcd .rightboxd{
+    font-weight: bold;
+    width: 9rem;
+    height: 6rem;
+    margin-top: 1rem;
+    border: 1px solid  rgb(214, 210, 210);
+    color: orangered;
+}
+.rightboxd{
+    margin-left: 1rem;
+}
+.rightboxd h1{
+    padding: 0 1rem;
+    font-size: 3rem;
+}
+.rightboxd p{
+    padding-top: 4px;
+    padding-left: 0.3rem;
+    font-weight: bold;
+    color: black;
+}
+/* experience end */
+
+
+
+.experts{
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+}
+.leftbox8{
+    margin-left: 1rem;
+}
+.leftbox8 .anc1{
+    border-radius: 3px;
+    padding: 0.1rem 0.3rem;
+    background-color: orangered;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.leftbox8 h1{
+    margin-top: 0.5rem;
+}
+.leftbox8 p{
+    font-size: 1.2rem;
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.leftbox8 .anc2{
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    background-color: orangered;
+    padding: 0.4rem 1rem;
+}
+
+.rightbox8{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.expert1{
+    border: 1px solid rgb(214, 210, 210);
+    margin-bottom: 0.8rem;
+}
+.expert1 img{
+    width: 20.3rem;
+    height: 14rem;
+}
+.expert1 .p1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+.expert1 .p2{
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    padding-left: 7.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.expert2{
+    border: 1px solid rgb(214, 210, 210);
+    margin-bottom: 0.8rem;
+}
+.expert2 img{
+    width: 20.3rem;
+    height: 14rem;
+}
+.expert2 .p1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+.expert2 .p2{
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    padding-left: 7.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.expert3{
+    border: 1px solid rgb(214, 210, 210);
+    margin-bottom: 0.8rem;
+    padding-right: -5px;
+}
+.expert3 img{
+    width: 20.3rem;
+    height: 14rem;
+}
+.expert3 .p1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 6.8rem;
+    padding-top: 1rem;
+}
+.expert3 .p2{
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    padding-left: 6.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.slidebar{
+    margin-top: 1rem;
+    margin-left: 9rem;
+}
+.slidebar a{
+    font-size: 8px;
+    border: 1px solid rgb(214, 210, 210);
+    color: rgb(131, 116, 116);
+    border-radius: 100%;
+    padding:  0.1px 2px;
+    background-color: rgb(131, 116, 116);
+}
+.slidebar button{
+    font-size: 8px;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 100%;
+    padding: 0.1px 2px;
+    background-color: orangered;
+}
+
+
+
+
+.package{
+    width: 100%;
+    height: 100%;
+}
+.leftbox9-1{
+    width: 320px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(214, 210, 210);
+}
+.basic{
+    padding-top: 1rem;
+    background-color: orangered;
+}
+.basic h2{
+    font-size: 2rem;
+    font-weight: 500;
+    
+    text-align: center;
+}
+.basic .p1 sup{
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+.basic .p1{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    padding: 1rem;
+}
+.basic .p1 span{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.basicinfo{
+    text-align: center;
+    padding: 0.8rem;
+}
+.basicinfo p{
+    color:  rgb(131, 116, 116);
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+.basicinfo button{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: orangered;
+    color: rgb(44, 41, 41);
+}
+
+
+.leftbox9-2{
+    width: 320px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(214, 210, 210);
+}
+.premium{
+    padding-top: 1rem;
+    background-color: orangered;
+}
+.premium h2{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.premium .p1 sup{
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+.premium .p1{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    padding: 1rem;
+}
+.premium .p1 span{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+.premiuminfo{
+    text-align: center;
+    padding: 0.8rem;
+}
+.premiuminfo p{
+    color:  rgb(131, 116, 116);
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+.premiuminfo button{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: orangered;
+    color: rgb(44, 41, 41);
+}
+
+
+.rightbox9{
+    margin-left: 1rem;
+    
+}
+.rightbox9 .ancho1{
+    border-radius: 3px;
+    padding: 0.1rem 0.3rem;
+    background-color: orangered;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.rightbox9 h1{
+    width: 305px;
+    margin-top: 0.5rem;
+}
+.rightbox9 .p1{
+    font-size: 1.2rem;
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.rightbox9 .p2{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.rightbox9 button{
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    background-color: orangered;
+    padding: 0.5rem 1rem;
+}
+/* package end */
+
+
+.clientsays{
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+}
+.leftbox10{
+    margin: 1rem;
+}
+.leftbox10 a{
+    border-radius: 3px;
+    padding: 0.1rem 0.3rem;
+    background-color: orangered;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.leftbox10 h1{
+    font-weight: bold;
+    width: 305px;
+    margin-top: 0.5rem;
+}
+.leftbox10 p{
+    font-size: 1.2rem;
+    color: rgb(131, 116, 116);
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.leftbox10 button{
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    background-color: orangered;
+    padding: 0.5rem 1rem;
+}
+.rightbox10{
+    margin-left: 1rem;
+}
+.leftbox1-1 .para{
+    border: 1px solid rgb(214, 210, 210);
+    padding: 1.5rem;
+    color: rgb(131, 116, 116);
+}
+.leftbox1-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.leftbox1-2 img{
+    margin-top: 1rem;
+    border-radius: 100%;
+}
+.leftbox1-2 h3{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.leftbox1-2 p{
+    color: rgb(131, 116, 116);
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+
+.rightbox1-1 .para1{
+    margin-top: 1rem;
+    border: 1px solid rgb(214, 210, 210);
+    padding: 1.5rem;
+    color: rgb(131, 116, 116);
+}
+.leftbox1-3{
+    display: flex;
+    flex-direction: row;  
+}
+.leftbox1-3 img{
+    margin-top: 1rem;
+    border-radius: 100%;
+}
+.rightbox1-2 h3{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.rightbox1-2 p{
+    color: rgb(131, 116, 116);
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.slidebar2{
+    margin-top: 1rem;
+    margin-left: 9rem;
+}
+.slidebar2 a{
+    font-size: 8px;
+    border: 1px solid rgb(214, 210, 210);
+    color: rgb(131, 116, 116);
+    border-radius: 100%;
+    padding: 0.1px 2px;
+    background-color: rgb(131, 116, 116);
+}
+.slidebar2 button{
+    font-size: 8px;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 100%;
+    padding:  0.1px 2px;
+    background-color: orangered;
+}
+
+
+.blog{
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    text-align: center;
+}
+.heading a{
+    padding: 0.1rem 0.2rem;
+    background-color: orangered;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.heading h1{
+    margin-top: 1rem;
+}
+.leftbox11{
+    border: 1px solid rgb(214, 210, 210);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.top img{
+    background-image:rgba(0,0,0,0.7)url("./blog-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20.1rem;
+}
+.top p{
+    font-weight: bold;
+    color: orangered;
+    margin-left: 1rem;
+    margin-top: -4rem;
+}
+.top h1{
+    font-weight: bold;
+    color: orangered;
+    margin-left: 1rem;
+}
+.bottom{
+    margin-left: 1rem;
+}
+.bottomleft{
+    display: flex;
+}
+.bottomleft img{
+    margin-top: 1rem;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.bottomleft p{
+    color: rgb(131, 116, 116);
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+.bottomleft .fa-bookmark{
+    color: orangered;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.bottomleft span{
+    color: rgb(131, 116, 116);
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+.bottomlast p{
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+
+.rightbox11{
+    border: 1px solid rgb(214, 210, 210);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* .top p,h1{
+    width: 3rem;
+    background-color: orangered;
+    border: 1px solid orangered;
+}  */
+.bottomleft .fa-bookmark{
+    color: orangered;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.bottomleft span{
+    color: rgb(131, 116, 116);
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 832px;
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-left: rem;
+}
+.content2{
+    margin-left: 2rem;
+    color: white;
+    padding-top: 1rem;
+}
+.content2 b{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    
+}
+.content2 span{
+    color: orangered;
+}
+.content2 p{
+    color: white;
+    width: 17rem;
+}
+.content2 i{
+    margin-top: 1rem;
+    border: 1px solid orangered;
+    padding: 0.6rem;
+    color: orangered;
+    border-radius: 100%;
+}
+
+.content3{
+    color: white;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+}
+.content3 h3{
+    color: orangered;
+}
+.content3 i{
+    color: orangered;
+    margin: 0.4rem;
+}
+
+.content4{
+    color: white;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+}
+.content4 h3{
+    color: orangered;
+}
+.content4 i{
+    color: orangered;
+    margin: 0.4rem;
+}
+
+
+.content5{
+    color: white;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+}
+.content5 h3{
+    color: orangered;
+}
+.content5 p{
+    margin-top: 1rem;
+}
+.content5-1{
+    display: flex;
+}
+.content5-1 i{
+    margin-top: 1rem;
+    color: orangered;
+}
+.content5-1 p{
+    margin-left: 0.5rem;
+}
+
+
+footer{
+    margin: 1.5rem 0;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    color: rgb(131, 116, 116);
+}
+footer span{
+    color: black;
+    font-size: 2rem;
+    color: rgb(131, 116, 116);
+}
+footer p{
+    color: orangered;
+}
+
+@media screen and (min-width:768px) {
+
+    .creativetitle{
+        padding-top: 1rem;
+        color: white;
+        font-size: 3rem;
+        text-align: start;  
+        font-weight: bold;
+        margin-left: 1.8rem;
+        display: flex;
+        padding-right: 2rem;
+    }
+    .creativelist{
+        font-size: 1.1rem;
+        color: white;
+        display: inline-block;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+        padding-left: 1px;
+        font-weight: 100;
+        display: flex;  
+    }
+    .creativelist1{
+        font-size: 1.1rem;
+        color: orangered;
+        display: inline-block;
+        margin-left: 5rem;
+        margin-top: 1.5rem;
+        font-weight: 100;
+        padding-left: 0.5rem;
+    }
+    .leftbox{
+        position: absolute;
+        width: 10%;
+        margin-top: 6rem;
+    }
+    .leftbox .a1{
+        display: flex;
+        color:  orangered;
+        border: 1px solid orangered;
+    
+        border-radius: 100%;
+        padding: 2px 8px;
+        margin-left: 20px;
+        margin-bottom: 1rem;
+        background-color: orangered;
+    }
+    .leftbox a{
+        display: flex;
+        color: white;
+        border: 1px solid white;
+    
+        border-radius: 100%;
+        background-color: white;
+        padding-left: 22px;
+        margin-left: 20px;
+        margin-bottom: 1rem;
+    }
+    .rightbox {
+        width: 70%;
+        color: white;
+        /* padding-left: 3rem;   */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-left: 10rem;
+        font-weight: 800;
+    }
+    .rightpara{
+        margin-bottom: 1rem;
+    }
+    .rightheading{
+        text-align: start;
+        margin-left: 16rem;
+        width: 25rem;
+    }
+    .rightbtn{
+        color: black;
+        padding: 0.6rem 1.5rem;
+        border-radius: 3px;
+        background-color: orangered;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+
+
+
+
+    .serviceprovider{
+        display: flex;
+        flex-direction: row;
+    }
+    .leftbox1 img{
+        width: 300px;
+        margin-left: 1.5rem;
+        height: 23rem;
+    }
+    .rightbox1{
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 2rem;  
+    }
+    .rightbox1 .anchor1{
+        margin: 1rem 0px;   
+    }
+    .rightbox1 .heading1{
+        margin-top: 0.5rem;
+        margin-left: 0;
+        width: 24.5rem;
+    }
+    .rightbox1 .para1-1{
+        width: 24.5rem;
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+
+
+
+
+    .serviceprovidercontact{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+        /* border: 1px solid black; */
+        border-radius: 1px;
+    }
+    .contactlocation{
+        width: 31%;
+        border: 1px solid rgb(214, 210, 210);
+        display: flex;
+        flex-direction: row;
+        margin-right: 3rem;
+        margin-top: 1rem;
+        height: 62px;
+    }
+    .rightbox2 p{
+        width: 15rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .contactemail{
+        width: 28%;
+        height: 62px;
+        border: 1px solid rgb(214, 210, 210);
+        display: flex;
+        flex-direction: row;
+        margin-right: 3rem;
+        margin-bottom: 5rem;  
+    }
+    .leftbox2 .fa-envelope{
+        margin: 1.5rem 1rem;
+        font-size: 1.5rem;
+        color:orangered;
+    }
+    .contactcall{
+        width: 29%;
+        border: 1px solid rgb(214, 210, 210);
+        display: flex;
+        flex-direction: row;
+        margin-right: 3rem;
+        height: 62px;
+    }
+    .leftbox2 .fa-phone{
+        margin: 1.5rem 1rem;
+        font-size: 1.5rem;
+        color: orangered;
+    }
+
+
+
+
+    .serviceoffer1{
+        width: 700px;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .serviceoffer1 p{
+        width: 250px;
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+    .servicecombo12{
+        display: flex;
+        flex-direction: row;
+        margin-top: -2rem; 
+        margin-left: 2rem;
+    }
+    .leftbox4{
+        margin-top: -1rem;
+    }
+    .rightbox4{
+        margin-top: -1rem;
+    }
+    .service1 p{
+        width: 180px;
+    }
+    .service2 p{
+        width: 180px;
+    }
+    .service3 p{
+        width: 180px;
+    }
+    .service4 p{
+        width: 180px;
+    }
+    .servicecombo34{
+        display: flex;
+        flex-direction: row;
+        margin-left: 18.5rem;
+        margin-top: -6rem;
+    }
+
+
+
+
+    .experience{
+        display: flex;
+        flex-direction: row;
+        margin-right: 5rem;
+    }
+    .leftbox7 p{
+        width: 20rem;
+        font-weight: 300;
+        font-size: 1.1rem;
+
+    }
+    .rightboxab .rightboxa{
+        width: 10rem;
+        height: 6rem;
+        padding-left: 2rem;
+        margin-top: -0.0rem;
+        margin-left: 2rem;
+    }
+    .rightboxab .rightboxb{
+        padding-left: 2em;
+        width: 10rem;
+        height: 6rem;
+        margin-top: -0.0rem;
+    }
+    .rightboxcd .rightboxc{
+        padding-left: 2rem;
+        width: 10rem;
+        height: 6rem;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .rightboxcd .rightboxd{
+        padding-left: 2rem;
+        width: 10rem;
+        height: 6rem;
+        margin-top: 1.5rem;
+    }
+
+
+
+    .experts{
+        display: flex;
+        flex-direction: row;
+    }
+    .leftbox8{
+        margin-top: 2rem;
+    }
+    .leftbox8 h1{
+        width: 16rem;
+    }
+    .leftbox8 p{
+        width: 15rem;
+    }
+    .rightbox8{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .expert1{
+        border: 1px solid rgb(214, 210, 210);
+    }
+    .expert1{
+        margin-right: 0.5rem;
+    }
+    .expert1 img{
+        width: 9rem;
+        height: 9rem;
+    }
+    .expert1 .p1{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-left: 1.4rem;
+        padding-top: 1rem;
+    }
+    .expert1 .p2{
+        color: rgb(131, 116, 116);
+        font-weight: 500;
+        padding-left: 2.4rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .expert2{
+        margin-right: 0.5rem;
+    }
+    .expert2 img{
+        width: 9rem;
+        height: 9rem;
+    }
+    .expert2 .p1{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-left: 1.6rem;
+        padding-top: 1rem;
+    }
+    .expert2 .p2{
+        color: rgb(131, 116, 116);
+        font-weight: 500;
+        padding-left: 2.7rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .expert3{
+        margin-right: 0.5rem;
+    }
+    .expert3 img{
+        width: 9rem;
+        height: 9rem;
+    }
+    .expert3 .p1{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    .expert3 .p2{
+        color: rgb(131, 116, 116);
+        font-weight: 500;
+        padding-left: 1.6rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .slidebar{
+        margin-top: 1rem;
+        margin-left: 30rem;
+        margin-bottom: 2rem;
+        
+    }
+    .slidebar a{
+        margin-right: 0.5rem;
+        font-size: 8px;
+        border: 1px solidrgb(131, 116, 116);
+        color: rgb(131, 116, 116);
+        border-radius: 100%;
+        padding: 0.1px 2px;
+        background-color:rgb(131, 116, 116);
+    }
+    .slidebar button{
+        font-size: 8px;
+        border: 1px solid orangered;
+        color: orangered;
+        border-radius: 100%;
+        padding: 0.1px 2px;
+        background-color: orangered;
+    }
+
+
+
+
+    .package{
+        display: flex;
+        flex-direction: row;
+    }
+    .rightbox9{
+        margin-top: 3rem;
+        width: 390px;
+    }
+    .rightbox9 .p1{
+        width: 295px;
+    }
+    .rightbox9 button{
+        margin-top: 1rem;
+    }
+
+
+
+
+    .clientsays{
+        display: flex;
+        flex-direction: row;
+    }
+    .rightbox10{
+        display: flex;
+        margin-left: -1rem;
+    }
+    .leftbox1-1{
+        margin-top: 1rem;
+    }
+    .rightbox1-1{
+        margin-left: 0.6rem;
+    }
+    .leftbox10 p{
+        width: 18rem;
+    }
+    .leftbox1-1 .para{
+        width: 12rem;
+    }
+    .rightbox1-1 .para1{
+        width: 12rem;
+    }
+
+
+
+    .slidebar2{
+        margin-top: 1rem;
+        margin-left: 33rem;
+    }
+    .slidebar2 button{
+        margin: 0.5rem;
+    }
+
+
+
+    .maincontainer{
+        display: flex;
+    }
+    .top img{
+        width: 25rem;
+    }
+
+
+
+    .footer{
+        height: 17rem;
+        display: flex;
+    }
+    .content2 p{
+        width: 15rem;
+    }
+    .content2 b{
+        font-size: 3.5rem;
+    }
+    .content3{
+        width: 11rem
+    }
+    .content4{
+        width: 13rem
+    }
+
+
+    footer{
+        align-items: center;
+        font-size: 1.2rem;
+        justify-content: center;
+    }
+    footer span{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+    .creativetitle{
+        padding-top: 1rem;
+        color: white;
+        font-size: 3.2rem;
+        text-align: start;  
+        font-weight: bold;
+        margin-left: 3rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .creativelist{
+        
+        font-size: 1.3rem;
+        color: white;
+        /* display: inline-block; */
+        /* margin-right: 1.8rem; */
+        margin-top: 1.5rem;
+        /* padding-left: 1px; */
+        /* padding-left: 1.5rem; */
+        font-weight: 100;
+        text-align: center;
+        justify-content: center;
+    }
+    .creativelist1{
+        font-size: 1.4rem;
+        /* display: inline-block; */
+        margin-left: 8rem;
+        margin-right: 0.5rem;
+        /*margin-top: 1.5rem; */
+        padding-left: 2rem;
+        font-weight: 100;
+    }
+    .leftbox{
+        position: absolute;
+        width: 10%;
+        margin-top: 6rem;
+        margin-left: 1rem;
+    }
+    .leftbox .a1{
+        display: flex;
+        color:  orangered;
+        border: 1px solid orangered;
+    
+        border-radius: 100%;
+        padding: 2px 8px;
+        margin-left: 20px;
+        margin-bottom: 0.5rem;
+        background-color: orangered;
+    }
+    .leftbox a{
+    
+        display: flex;
+        color: white;
+        border: 1px solid white;
+    
+        border-radius: 100%;
+        background-color: white;
+        padding-left: 22px;
+        margin-left: 20px;
+        margin-bottom: 0.5rem;
+    }
+    .rightbox {
+        width: 70%;
+        color: white;
+        /* padding-left: 3rem;   */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        margin-left: 15rem;
+        font-weight: 800;
+    }
+    .rightpara{
+        margin-bottom: 1rem;
+    }
+    .rightheading{
+        font-size: 2.8rem;
+        text-align: start;
+        margin-left: 16rem;
+        width: 26rem;
+    }
+    .rightbtn{
+        color: black;
+        padding: 0.6rem 1.5rem;
+        border-radius: 3px;
+        background-color: orangered;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+
+
+
+
+    .serviceprovider{
+        display: flex;
+        flex-direction: row;
+    }
+    .leftbox1 img{
+        width: 300px;
+        margin-left: 3.3rem;
+        height: 18rem;
+    }
+    .rightbox1{
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 4rem;
+    }
+    .rightbox1 .anchor1{
+        margin: 1rem 0px;   
+    }
+    .rightbox1 .heading1{
+        margin-top: 0.5rem;
+        margin-left: 0;
+        width: 33rem;
+    }
+    .rightbox1 .para1-1{
+        width: 35rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .serviceprovidercontact{
+        margin-left: 5rem;
+    }
+    .contactcall{
+        width: 27%;
+    }
+
+
+
+
+    .serviceprovidercontact{
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+
+
+
+
+    .serviceoffer1{
+        width: 800px;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        margin-left: 4rem;
+    }
+    .serviceoffer1 p{
+        width: 300px;
+        font-size: 1.2rem;
+    }
+    .servicecombo12{
+        display: flex;
+        flex-direction: row;
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+    .leftbox4{
+        margin-top: -1rem;
+    }
+    .rightbox4{
+        margin-top: -1rem;
+    }
+    .service1 p{
+        width: 230px;
+    }
+    .service2 p{
+        width: 230px;
+    }
+    .service3 p{
+        width: 230px;
+        font-weight: 400;
+    }
+    .service4 p{
+        width: 230px;
+        font-weight: 400;
+    }
+    .servicecombo34{
+        display: flex;
+        flex-direction: row;
+        margin-left: 24rem;
+        margin-top: -7rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+
+    }
+
+
+
+
+    .experience{
+        display: flex;
+        flex-direction: row;
+        margin-right: 5rem;
+    }
+    .leftbox7{
+        margin-left: 3.4rem;
+    }
+    .leftbox7 p{
+        width: 27rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .rightboxab .rightboxa{
+        width: 10rem;
+        height: 6rem;
+        padding-left: 2rem;
+        margin-top: -0.0rem;
+        margin-left: 6rem;
+    }
+    .rightboxab .rightboxb{
+        padding-left: 2em;
+        width: 10rem;
+        height: 6rem;
+        margin-top: -0.0rem;
+    }
+    .rightboxcd .rightboxc{
+        padding-left: 2rem;
+        width: 10rem;
+        height: 6rem;
+        margin-top: 1.5rem;
+        margin-left: 6rem;
+    }
+    .rightboxcd .rightboxd{
+        padding-left: 2rem;
+        width: 10rem;
+        height: 6rem;
+        margin-top: 1.5rem;
+    }
+
+
+    .leftbox8{
+        margin-left: 4rem;
+    }
+    .leftbox8 p{
+        width: 20rem;
+    }
+    .expert1{
+        border: 1px solid rgb(214, 210, 210);
+    }
+    .expert1{
+        margin-right: 1.5rem;
+    }
+    .expert1 img{
+        width: 11.5rem;
+        height: 9rem;
+    }
+    .expert1 .p1{
+        font-size: 1rem;
+        font-weight: bold;
+        padding-left: 2.5rem;
+        padding-top: 1rem;
+    }
+    .expert1 .p2{
+        color: rgb(131, 116, 116);
+        font-weight: 500;
+        padding-left: 3.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .expert2{
+        margin-right: 1.5rem;
+    }
+    .expert2 img{
+        width: 11rem;
+        height: 9rem;
+    }
+    .expert2 .p1{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-left: 2.5rem;
+        padding-top: 1rem;
+    }
+    .expert2 .p2{
+        color: rgb(131, 116, 116);
+        font-weight: 500;
+        padding-left: 3.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .expert3 img{
+        width: 11rem;
+        height: 9rem;
+    }
+    .expert3 .p1{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+    .expert3 .p2{
+        color: rgb(131, 116, 116);
+        font-weight: 500;
+        padding-left: 2.7rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+
+
+    .slidebar{
+        margin-top: 1rem;
+        margin-left: 38rem;
+        margin-bottom: 2rem;
+        
+    }
+    .slidebar a{
+        margin-right: 0.7rem;
+        font-size: 8px;
+        border: 1px solidrgb(131, 116, 116);
+        color: rgb(131, 116, 116);
+        border-radius: 100%;
+        padding:  0.1px 2px;
+        background-color:rgb(131, 116, 116);
+    }
+    .slidebar button{
+        font-size: 8px;
+        border: 1px solid orangered;
+        color: orangered;
+        border-radius: 100%;
+        padding: 0.1px 2px;
+        background-color: orangered;
+    }
+
+
+
+    .package{
+        margin-left: 2rem;
+    }
+    .rightbox9{
+        margin-top: 3rem;
+        width: 390px;
+        margin-left: 1.5rem;
+    }
+    .rightbox9 h1{
+        width: 335px;
+    }
+    .rightbox9 .p1{
+        width: 325px;
+    }
+    .rightbox9 button{
+        margin-top: 1rem;
+    }
+
+
+
+    .clientsays{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .rightbox10{
+        display: flex;
+        margin-left: -1rem;
+    }
+    .leftbox1-1{
+        margin-top: 1rem;
+    }
+    .rightbox1-1{
+        margin-left: 0.6rem;
+    }
+    .leftbox10 p{
+        width: 18rem;
+    }
+    .leftbox1-1 .para{
+        width: 16rem;
+    }
+    .rightbox1-1 .para1{
+        width: 16rem;
+    }
+
+
+
+
+
+
+
+    .slidebar2{
+        margin-left: 44rem;
+    }
+    .leftbox11{
+        margin-left: 3.5rem;
+    }
+    .top img{
+        width: 30.1rem;
+    }
+    .bottomlast p{
+        width: 29rem;
+    }
+
+
+
+    .top img{
+        background-image:rgba(0,0,0,0.7)url("./blog-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30.5rem;
+    }
+
+
+
+    .footer{
+        height: 17rem;
+    }
+    .content5{
+        width: 18rem;
+    }
+}
