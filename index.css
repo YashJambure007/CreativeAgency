@@ -53,7 +53,7 @@ nav ul li{
 .contentbox{
     display: flex;
     flex-direction: column;  
-    width: 320px;  
+    width: 100%;  
     position: relative; 
 }
 .leftbox{
@@ -913,7 +913,7 @@ nav ul li{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 20.1rem;
+    width: 100%;
 }
 .top p{
     font-weight: bold;
@@ -1126,23 +1126,22 @@ footer p{
         display: flex;
         color:  orangered;
         border: 1px solid orangered;
-    
         border-radius: 100%;
-        padding: 2px 8px;
+        padding: 2px 7px;
         margin-left: 20px;
         margin-bottom: 1rem;
         background-color: orangered;
     }
     .leftbox a{
         display: flex;
+        width: 20%;
         color: white;
         border: 1px solid white;
-    
         border-radius: 100%;
         background-color: white;
-        padding-left: 22px;
-        margin-left: 20px;
-        margin-bottom: 1rem;
+        padding: 0px 0px;
+        margin-bottom: 0.5rem;
+        margin-left: 1.5rem;
     }
     .rightbox {
         width: 70%;
@@ -1150,18 +1149,17 @@ footer p{
         /* padding-left: 3rem;   */
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
         margin-top: 5rem;
-        margin-left: 10rem;
+        margin-left: 12rem;
         font-weight: 800;
     }
     .rightpara{
         margin-bottom: 1rem;
+
     }
     .rightheading{
         text-align: start;
-        margin-left: 16rem;
         width: 25rem;
     }
     .rightbtn{
@@ -1510,12 +1508,11 @@ footer p{
         display: flex;
     }
     .top img{
-        width: 25rem;
+        width: 100%;
     }
 
 
-
-    .footer{
+.footer{
         height: 17rem;
         display: flex;
     }
@@ -1547,6 +1544,9 @@ footer p{
 
 @media screen and (min-width: 1024px){
 
+    .creative{
+        height: 32rem;
+    }
     .creativetitle{
         padding-top: 1rem;
         color: white;
@@ -1589,7 +1589,6 @@ footer p{
         display: flex;
         color:  orangered;
         border: 1px solid orangered;
-    
         border-radius: 100%;
         padding: 2px 8px;
         margin-left: 20px;
@@ -1597,37 +1596,33 @@ footer p{
         background-color: orangered;
     }
     .leftbox a{
-    
         display: flex;
+        width: 20%;
         color: white;
         border: 1px solid white;
-    
         border-radius: 100%;
         background-color: white;
-        padding-left: 22px;
-        margin-left: 20px;
+        padding: 0px 0px;
         margin-bottom: 0.5rem;
     }
     .rightbox {
         width: 70%;
         color: white;
-        /* padding-left: 3rem;   */
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
         margin-top: 4rem;
-        margin-left: 15rem;
+        margin-left: 17rem;
         font-weight: 800;
     }
     .rightpara{
         margin-bottom: 1rem;
     }
     .rightheading{
-        font-size: 2.8rem;
+        font-size: 3.5rem;
         text-align: start;
-        margin-left: 16rem;
-        width: 26rem;
+        margin-left: 0;
+        width: 30rem;
     }
     .rightbtn{
         color: black;
@@ -1645,10 +1640,13 @@ footer p{
         display: flex;
         flex-direction: row;
     }
+    .leftbox1{
+        width: 50%;
+    }
     .leftbox1 img{
-        width: 300px;
+        width: 84%;
         margin-left: 3.3rem;
-        height: 18rem;
+        height: 24rem;
     }
     .rightbox1{
         margin-top: 5rem;
@@ -1657,6 +1655,7 @@ footer p{
     }
     .rightbox1 .anchor1{
         margin: 1rem 0px;   
+
     }
     .rightbox1 .heading1{
         margin-top: 0.5rem;
@@ -1687,21 +1686,39 @@ footer p{
 
 
     .serviceoffer1{
-        width: 800px;
+
+        width: 100%;
         margin-top: 1rem;
         display: flex;
         flex-direction: row;
-        margin-left: 4rem;
+        margin-left: 5rem;
     }
+
+    .descrip1{
+        width: 35%;
+    }
+    .descrip1 p{
+        width: 100%;
+    }
+    .descrip1 h2{
+        width: 80%;
+    }
+   
     .serviceoffer1 p{
-        width: 300px;
+        width: 80%;
         font-size: 1.2rem;
     }
     .servicecombo12{
         display: flex;
         flex-direction: row;
         margin-top: -2rem;
-        margin-left: 2rem;
+        margin-left: 0rem;
+    }
+    .service2{
+        margin-left: 5%;
+    }
+    .service4{
+        margin-left: 2%;
     }
     .leftbox4{
         margin-top: -1rem;
@@ -1726,8 +1743,8 @@ footer p{
     .servicecombo34{
         display: flex;
         flex-direction: row;
-        margin-left: 24rem;
-        margin-top: -7rem;
+        margin-left: 39%;
+        margin-top: -6rem;
         font-size: 1.1rem;
         font-weight: 500;
 
@@ -1740,14 +1757,20 @@ footer p{
         display: flex;
         flex-direction: row;
         margin-right: 5rem;
+        width: 100%;
+        margin-left: 2rem;
     }
     .leftbox7{
         margin-left: 3.4rem;
+        width: 40%;
     }
     .leftbox7 p{
-        width: 27rem;
+        width: 100%;
         font-size: 1.2rem;
         font-weight: 500;
+    }
+    .rightbox7{
+        width: 60%;
     }
     .rightboxab .rightboxa{
         width: 10rem;
@@ -1757,10 +1780,11 @@ footer p{
         margin-left: 6rem;
     }
     .rightboxab .rightboxb{
-        padding-left: 2em;
+        padding-left: 2rem;
         width: 10rem;
         height: 6rem;
         margin-top: -0.0rem;
+        margin-left: 9%;
     }
     .rightboxcd .rightboxc{
         padding-left: 2rem;
@@ -1774,14 +1798,22 @@ footer p{
         width: 10rem;
         height: 6rem;
         margin-top: 1.5rem;
+        margin-left: 9%;
     }
 
 
+    .experts{
+        margin-left: 2rem;
+    }
     .leftbox8{
+        width: 35%;
         margin-left: 4rem;
     }
     .leftbox8 p{
-        width: 20rem;
+        width: 90%;
+    }
+    .rightbox8{
+        width: 60%;
     }
     .expert1{
         border: 1px solid rgb(214, 210, 210);
@@ -1873,18 +1905,22 @@ footer p{
 
 
     .package{
-        margin-left: 2rem;
+        width: 100%;
+        margin-left: 4rem;
+    }
+    .leftbox9-2{
+        margin-left: 3%;
     }
     .rightbox9{
         margin-top: 3rem;
-        width: 390px;
-        margin-left: 1.5rem;
+        width: 40%;
+        margin-left: 3%;
     }
     .rightbox9 h1{
-        width: 335px;
+        width: 70%;
     }
     .rightbox9 .p1{
-        width: 325px;
+        width: 70%;
     }
     .rightbox9 button{
         margin-top: 1rem;
@@ -1893,11 +1929,16 @@ footer p{
 
 
     .clientsays{
-        margin-left: 2rem;
+        width: 100%;
+        margin-left: 4rem;
         display: flex;
         flex-direction: row;
     }
+    .leftbox10{
+        width: 35%;
+    }
     .rightbox10{
+        width: 60%;
         display: flex;
         margin-left: -1rem;
     }
@@ -1908,7 +1949,7 @@ footer p{
         margin-left: 0.6rem;
     }
     .leftbox10 p{
-        width: 18rem;
+        width: 80%;
     }
     .leftbox1-1 .para{
         width: 16rem;
@@ -1921,19 +1962,25 @@ footer p{
 
 
 
-
-
     .slidebar2{
         margin-left: 44rem;
     }
     .leftbox11{
         margin-left: 3.5rem;
+        width: 42%;
     }
-    .top img{
-        width: 30.1rem;
+    .rightbox11{
+        width: 42%;
     }
     .bottomlast p{
-        width: 29rem;
+        width: 95%;
+    }
+
+
+
+    .blog{
+        width: 100%;
+        margin-left: 1rem;
     }
 
 
@@ -1943,12 +1990,15 @@ footer p{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        width: 30.5rem;
+        width: 100%;
     }
 
 
 
     .footer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
         height: 17rem;
     }
     .content5{
